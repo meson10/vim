@@ -17,6 +17,7 @@ Bundle "bling/vim-airline"
 Bundle "pangloss/vim-javascript"
 Bundle 'flazz/vim-colorschemes'
 Plugin 'fatih/vim-go'
+Plugin 'tpope/vim-fugitive'
 
 syntax enable
 filetype plugin indent on
