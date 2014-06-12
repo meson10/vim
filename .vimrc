@@ -15,6 +15,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdtree'
 Bundle "bling/vim-airline"
 Bundle "pangloss/vim-javascript"
+Bundle 'flazz/vim-colorschemes'
 Plugin 'fatih/vim-go'
 
 syntax enable

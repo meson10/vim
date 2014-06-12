@@ -3,7 +3,7 @@ if has("gui_macvim")
   set guioptions=aAce
   set fuoptions=maxvert,maxhorz
   set noballooneval
-  silent! colorscheme jellybeans
+  silent! colorscheme Monokai
 
   " Automatically resize splits
   " when resizing MacVim window
