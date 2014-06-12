@@ -52,12 +52,7 @@ set ignorecase
 set smartcase
 
 " Automatic formatting
-autocmd BufWritePre *.rb :%s/\s\+$//e
-autocmd BufWritePre *.go :%s/\s\+$//e
-autocmd BufWritePre *.haml :%s/\s\+$//e
-autocmd BufWritePre *.html :%s/\s\+$//e
-autocmd BufWritePre *.scss :%s/\s\+$//e
-autocmd BufWritePre *.slim :%s/\s\+$//e
+autocmd BufWritePre * :%s/\s\+$//e
 
 highlight ExtraWhitespace ctermbg=darkgreen guibg=lightgreen
 
