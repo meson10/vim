@@ -10,7 +10,6 @@ Plugin 'gmarik/Vundle.vim'
 " My Bundles
 Bundle 'tpope/vim-sensible'
 Bundle 'tpope/vim-surround'
-Bundle 'nanotech/jellybeans.vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdtree'
 Bundle "bling/vim-airline"
@@ -18,6 +17,7 @@ Bundle "pangloss/vim-javascript"
 Bundle 'flazz/vim-colorschemes'
 Plugin 'fatih/vim-go'
 Plugin 'tpope/vim-fugitive'
+Plugin 'hynek/vim-python-pep8-indent'
 
 syntax enable
 filetype plugin indent on
@@ -42,7 +42,7 @@ set synmaxcol=128
 set ttyscroll=10
 set encoding=utf-8
 set tabstop=2
-set nowrap
+"set nowrap
 set number
 set expandtab
 set nowritebackup
