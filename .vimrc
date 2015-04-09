@@ -42,7 +42,6 @@ set viminfo=
 set modelines=0
 set shiftwidth=2
 set clipboard=unnamed
-set synmaxcol=128
 set ttyscroll=10
 set encoding=utf-8
 set tabstop=2
@@ -76,7 +75,7 @@ imap jj <ESC>
 " NERDTree
 "nmap <leader>n :NERDTreeToggle<CR>
 let NERDTreeHighlightCursorline=1
-let NERDTreeIgnore = ['tmp', '.yardoc', '\.pyc$']
+let NERDTreeIgnore = ['tmp$', '.yardoc', '\.pyc$']
 
 " Syntastic
 let g:syntastic_mode_map = { 'mode': 'passive' }
